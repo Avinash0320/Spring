@@ -20,6 +20,9 @@ public class UserServiceImpl implements IUserService {
 		return userDao.create(bean);
 	}
 
+	
+	
+	
 	@Override
 	public List<UserBean> getUserDetails(UserBean bean) {
 		return userDao.findAll(bean);
